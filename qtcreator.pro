@@ -13,7 +13,7 @@ CONFIG   += ordered
 
 SUBDIRS = src share
 unix:!macx:!isEmpty(copydata):SUBDIRS += bin
-!isEmpty(BUILD_TESTS):SUBDIRS += tests
+#!isEmpty(BUILD_TESTS):SUBDIRS += tests
 
 DISTFILES += dist/copyright_template.txt \
     README.md \
