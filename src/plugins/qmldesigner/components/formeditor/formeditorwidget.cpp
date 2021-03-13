@@ -291,7 +291,7 @@ FormEditorWidget::FormEditorWidget(FormEditorView *view)
     connect(m_graphicsView, &FormEditorGraphicsView::zoomIn, zoomIn);
     connect(m_graphicsView, &FormEditorGraphicsView::zoomOut, zoomOut);
 
-    fillLayout->addWidget(m_graphicsView.data());
+//    fillLayout->addWidget(m_graphicsView.data());
 
     QByteArray sheet = Utils::FileReader::fetchQrc(":/qmldesigner/stylesheet.css");
     sheet += Utils::FileReader::fetchQrc(":/qmldesigner/scrollbar.css");

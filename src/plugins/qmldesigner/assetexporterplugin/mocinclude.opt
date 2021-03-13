@@ -1,0 +1,53 @@
+-IC:/Qt/Qt5.14.0/5.14.0/msvc2017/mkspecs/win32-msvc
+-ID:/Source/Qt/QtCreator/SourceCode/qt-creator/src/plugins/qmldesigner/assetexporterplugin
+-ID:/Source/Qt/QtCreator/SourceCode/qt-creator/src
+-ID:/Source/Qt/QtCreator/SourceCode/qt-creator/src
+-ID:/Source/Qt/QtCreator/SourceCode/qt-creator/src/libs
+-ID:/Source/Qt/QtCreator/SourceCode/qt-creator/tools
+-ID:/Source/Qt/QtCreator/SourceCode/qt-creator/src/plugins
+-ID:/Source/Qt/QtCreator/SourceCode/qt-creator/src/libs
+-ID:/Source/Qt/QtCreator/SourceCode/qt-creator/src/libs/3rdparty
+-ID:/Source/Qt/QtCreator/SourceCode/qt-creator/src/plugins/qmldesigner/designercore/include
+-ID:/Source/Qt/QtCreator/SourceCode/qt-creator/src/plugins/qmldesigner
+-ID:/Source/Qt/QtCreator/SourceCode/qt-creator/share/qtcreator/qml/qmlpuppet/interfaces
+-ID:/Source/Qt/QtCreator/SourceCode/qt-creator/share/qtcreator/qml/qmlpuppet/types
+-ID:/Source/Qt/QtCreator/SourceCode/qt-creator/src/plugins/qmldesigner/designercore
+-ID:/Source/Qt/QtCreator/SourceCode/qt-creator/src/plugins/qmldesigner/components/integration
+-ID:/Source/Qt/QtCreator/SourceCode/qt-creator/src/plugins/qmldesigner/components/componentcore
+-ID:/Source/Qt/QtCreator/SourceCode/qt-creator/src/plugins/qmldesigner/components/itemlibrary
+-ID:/Source/Qt/QtCreator/SourceCode/qt-creator/src/plugins/qmldesigner/components/edit3d
+-ID:/Source/Qt/QtCreator/SourceCode/qt-creator/src/plugins/qmldesigner/components/formeditor
+-ID:/Source/Qt/QtCreator/SourceCode/qt-creator/src/plugins/qmldesigner/components/navigator
+-ID:/Source/Qt/QtCreator/SourceCode/qt-creator/src/plugins/qmldesigner/components/stateseditor
+-ID:/Source/Qt/QtCreator/SourceCode/qt-creator/src/plugins/qmldesigner/components/texteditor
+-ID:/Source/Qt/QtCreator/SourceCode/qt-creator/src/plugins/qmldesigner/components/propertyeditor
+-ID:/Source/Qt/QtCreator/SourceCode/qt-creator/src/plugins/qmldesigner/components/debugview
+-ID:/Source/Qt/QtCreator/SourceCode/qt-creator/src/plugins/qmldesigner/assetexporterplugin
+-IC:/Qt/Qt5.14.0/5.14.0/msvc2017/include
+-IC:/Qt/Qt5.14.0/5.14.0/msvc2017/include/QtWidgets
+-IC:/Qt/Qt5.14.0/5.14.0/msvc2017/include/QtQuick/5.14.0
+-IC:/Qt/Qt5.14.0/5.14.0/msvc2017/include/QtQuick/5.14.0/QtQuick
+-IC:/Qt/Qt5.14.0/5.14.0/msvc2017/include/QtQuick
+-IC:/Qt/Qt5.14.0/5.14.0/msvc2017/include/QtGui/5.14.0
+-IC:/Qt/Qt5.14.0/5.14.0/msvc2017/include/QtGui/5.14.0/QtGui
+-IC:/Qt/Qt5.14.0/5.14.0/msvc2017/include/QtGui
+-IC:/Qt/Qt5.14.0/5.14.0/msvc2017/include/QtANGLE
+-IC:/Qt/Qt5.14.0/5.14.0/msvc2017/include/QtConcurrent
+-IC:/Qt/Qt5.14.0/5.14.0/msvc2017/include/QtQmlModels/5.14.0
+-IC:/Qt/Qt5.14.0/5.14.0/msvc2017/include/QtQmlModels/5.14.0/QtQmlModels
+-IC:/Qt/Qt5.14.0/5.14.0/msvc2017/include/QtQmlModels
+-IC:/Qt/Qt5.14.0/5.14.0/msvc2017/include/QtQml/5.14.0
+-IC:/Qt/Qt5.14.0/5.14.0/msvc2017/include/QtQml/5.14.0/QtQml
+-IC:/Qt/Qt5.14.0/5.14.0/msvc2017/include/QtQml
+-IC:/Qt/Qt5.14.0/5.14.0/msvc2017/include/QtNetwork
+-IC:/Qt/Qt5.14.0/5.14.0/msvc2017/include/QtCore/5.14.0
+-IC:/Qt/Qt5.14.0/5.14.0/msvc2017/include/QtCore/5.14.0/QtCore
+-IC:/Qt/Qt5.14.0/5.14.0/msvc2017/include/QtCore
+-IC:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include
+-IC:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include
+-IC:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um
+-IC:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt
+-IC:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared
+-IC:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um
+-IC:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt
+-IC:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt

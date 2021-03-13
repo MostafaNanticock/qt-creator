@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<RCC>
+    <qresource prefix="studiofonts">
+        <file alias="TitilliumWeb-Light.ttf">../../share/3rdparty/studiofonts/TitilliumWeb-Light.ttf</file>
+        <file alias="TitilliumWeb-Regular.ttf">../../share/3rdparty/studiofonts/TitilliumWeb-Regular.ttf</file>
+        <file alias="StudioFonts/qmldir">../../share/3rdparty/studiofonts/StudioFonts/qmldir</file>
+    </qresource>
+</RCC>

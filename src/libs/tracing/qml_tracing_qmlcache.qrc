@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<RCC>
+    <qresource prefix="/tracing">
+        <file alias="ico_edit.png">qml/ico_edit.png</file>
+        <file alias="ico_edit@2x.png">qml/ico_edit@2x.png</file>
+        <file alias="ico_rangeselected.png">qml/ico_rangeselected.png</file>
+        <file alias="ico_rangeselected@2x.png">qml/ico_rangeselected@2x.png</file>
+        <file alias="ico_rangeselection.png">qml/ico_rangeselection.png</file>
+        <file alias="ico_rangeselection@2x.png">qml/ico_rangeselection@2x.png</file>
+        <file alias="ico_selectionmode.png">qml/ico_selectionmode.png</file>
+        <file alias="ico_selectionmode@2x.png">qml/ico_selectionmode@2x.png</file>
+        <file alias="notes.frag">qml/notes.frag</file>
+        <file alias="notes.vert">qml/notes.vert</file>
+        <file alias="range_handle.png">qml/range_handle.png</file>
+        <file alias="timelineitems.frag">qml/timelineitems.frag</file>
+        <file alias="timelineitems.vert">qml/timelineitems.vert</file>
+    </qresource>
+</RCC>

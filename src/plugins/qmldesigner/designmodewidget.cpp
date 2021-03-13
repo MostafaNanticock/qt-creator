@@ -353,6 +353,7 @@ void DesignModeWidget::setup()
         }
     }
 
+    // here is the place where all the subViews of the designer are added to the MainWidget
     // Afterwards get all the other widgets
     for (const WidgetInfo &widgetInfo : viewManager().widgetInfos()) {
         // Create DockWidget
@@ -407,6 +408,7 @@ void DesignModeWidget::setup()
 
     designerToolBar->layout()->addWidget(toolBar);
 
+    // this is the designer toolbar that is displayed on the header of the designer widget that has the go forward and go backward yellow buttons
     m_toolBar->addCenterToolBar(designerToolBar);
     m_toolBar->setMinimumWidth(320);
     m_toolBar->setToolbarCreationFlags(Core::EditorToolBar::FlagsStandalone);

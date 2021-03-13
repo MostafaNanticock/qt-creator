@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<RCC>
+    <qresource prefix="/componentsplugin">
+        <file alias="components.metainfo">components.metainfo</file>
+        <file alias="images/item-icon.png">images/item-icon.png</file>
+        <file alias="images/item-icon16.png">images/item-icon16.png</file>
+        <file alias="images/column-layouts-icon.png">images/column-layouts-icon.png</file>
+        <file alias="images/column-layouts-icon-16px.png">images/column-layouts-icon-16px.png</file>
+        <file alias="images/grid-layouts-icon.png">images/grid-layouts-icon.png</file>
+        <file alias="images/grid-layouts-icon-16px.png">images/grid-layouts-icon-16px.png</file>
+        <file alias="images/row-layouts-icon.png">images/row-layouts-icon.png</file>
+        <file alias="images/row-layouts-icon-16px.png">images/row-layouts-icon-16px.png</file>
+        <file alias="images/splitview-layouts-icon.png">images/splitview-layouts-icon.png</file>
+        <file alias="images/splitview-layouts-icon-16px.png">images/splitview-layouts-icon-16px.png</file>
+        <file alias="images/stack-layouts-icon.png">images/stack-layouts-icon.png</file>
+        <file alias="images/stack-layouts-icon-16px.png">images/stack-layouts-icon-16px.png</file>
+        <file alias="images/column-layouts-icon@2x.png">images/column-layouts-icon@2x.png</file>
+        <file alias="images/grid-layouts-icon@2x.png">images/grid-layouts-icon@2x.png</file>
+        <file alias="images/row-layouts-icon@2x.png">images/row-layouts-icon@2x.png</file>
+        <file alias="images/stack-layouts-icon@2x.png">images/stack-layouts-icon@2x.png</file>
+    </qresource>
+    <qresource prefix="/propertyEditorQmlSources/QtQuick"/>
+</RCC>

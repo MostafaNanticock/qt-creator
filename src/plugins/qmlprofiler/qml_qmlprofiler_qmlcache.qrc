@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<RCC>
+    <qresource prefix="/qmlprofiler">
+        <file alias="bindingloops.vert">qml/bindingloops.vert</file>
+        <file alias="bindingloops.frag">qml/bindingloops.frag</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<RCC>
+    <qresource prefix="/perfprofiler">
+        <file alias="tracepoints.sh">tracepoints.sh</file>
+    </qresource>
+</RCC>

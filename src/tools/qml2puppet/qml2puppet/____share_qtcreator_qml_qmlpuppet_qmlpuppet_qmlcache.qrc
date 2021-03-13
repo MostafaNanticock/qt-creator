@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<RCC>
+    <qresource prefix="/qtquickplugin">
+        <file alias="images/template_image.png">../../../../share/qtcreator/qml/qmlpuppet/images/template_image.png</file>
+        <file alias="html/welcome.html">../../../../share/qtcreator/qml/qmlpuppet/html/welcome.html</file>
+        <file alias="images/webkit.png">../../../../share/qtcreator/qml/qmlpuppet/images/webkit.png</file>
+        <file alias="images/non-visual-component.png">../../../../share/qtcreator/qml/qmlpuppet/images/non-visual-component.png</file>
+        <file alias="images/non-visual-component@2x.png">../../../../share/qtcreator/qml/qmlpuppet/images/non-visual-component@2x.png</file>
+        <file alias="mockfiles/meshes/arrow.mesh">../../../../share/qtcreator/qml/qmlpuppet/mockfiles/meshes/arrow.mesh</file>
+        <file alias="mockfiles/meshes/scalerod.mesh">../../../../share/qtcreator/qml/qmlpuppet/mockfiles/meshes/scalerod.mesh</file>
+        <file alias="mockfiles/meshes/ring.mesh">../../../../share/qtcreator/qml/qmlpuppet/mockfiles/meshes/ring.mesh</file>
+        <file alias="mockfiles/meshes/ringselect.mesh">../../../../share/qtcreator/qml/qmlpuppet/mockfiles/meshes/ringselect.mesh</file>
+        <file alias="mockfiles/meshes/axishelper.mesh">../../../../share/qtcreator/qml/qmlpuppet/mockfiles/meshes/axishelper.mesh</file>
+        <file alias="mockfiles/images/editor_camera.png">../../../../share/qtcreator/qml/qmlpuppet/mockfiles/images/editor_camera.png</file>
+        <file alias="mockfiles/images/editor_camera@2x.png">../../../../share/qtcreator/qml/qmlpuppet/mockfiles/images/editor_camera@2x.png</file>
+        <file alias="mockfiles/images/area.png">../../../../share/qtcreator/qml/qmlpuppet/mockfiles/images/area.png</file>
+        <file alias="mockfiles/images/area@2x.png">../../../../share/qtcreator/qml/qmlpuppet/mockfiles/images/area@2x.png</file>
+        <file alias="mockfiles/images/directional.png">../../../../share/qtcreator/qml/qmlpuppet/mockfiles/images/directional.png</file>
+        <file alias="mockfiles/images/directional@2x.png">../../../../share/qtcreator/qml/qmlpuppet/mockfiles/images/directional@2x.png</file>
+        <file alias="mockfiles/images/point.png">../../../../share/qtcreator/qml/qmlpuppet/mockfiles/images/point.png</file>
+        <file alias="mockfiles/images/point@2x.png">../../../../share/qtcreator/qml/qmlpuppet/mockfiles/images/point@2x.png</file>
+        <file alias="mockfiles/images/spot.png">../../../../share/qtcreator/qml/qmlpuppet/mockfiles/images/spot.png</file>
+        <file alias="mockfiles/images/spot@2x.png">../../../../share/qtcreator/qml/qmlpuppet/mockfiles/images/spot@2x.png</file>
+    </qresource>
+</RCC>

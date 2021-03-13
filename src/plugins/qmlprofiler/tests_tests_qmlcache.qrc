@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<RCC>
+    <qresource prefix="/qmlprofiler/tests">
+        <file alias="qmlprofilerdetailsrewriter_test.cpp">tests/qmlprofilerdetailsrewriter_test.cpp</file>
+        <file alias="traces.dat">tests/traces.dat</file>
+        <file alias="check.dat">tests/check.dat</file>
+    </qresource>
+</RCC>
