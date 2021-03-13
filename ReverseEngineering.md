@@ -35,3 +35,10 @@ this is the View of interest where the QML preview is displayed
 
 # qmldesigner/components/formeditor/formeditorwidget.h
 this is the widget that gets displayed inside Qt Creator and where all the actual UI Work is done. the `m_graphicsView` widget is what's responsible for drawing the QML preview.
+
+# qmldesigner/designercore/instances/interactiveconnectionmanager.h
+the function `showCannotConnectToPuppetWarningAndSwitchToEditMode()` gets called whenever the designer fails at establishing a connection to the `qml2puppet` executable.
+this function gets called only from the `ConnectionManager::setUp()` function.
+
+# qmldesigner/designercore/instances/connectionmanager.h
+this class is what instantiates the `qml2puppet` executable and creates a link between it and the QtCreator, the link initializtion is done in the function `ConnectionManager::setUp()`
