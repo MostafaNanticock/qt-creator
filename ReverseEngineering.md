@@ -42,3 +42,32 @@ this function gets called only from the `ConnectionManager::setUp()` function.
 
 # qmldesigner/designercore/instances/connectionmanager.h
 this class is what instantiates the `qml2puppet` executable and creates a link between it and the QtCreator, the link initializtion is done in the function `ConnectionManager::setUp()`
+
+# ConnectionManager inheritance Tree
+<pre>
+ConnectionManagerInterface
+└─── BaseConnectionManager
+    └─── ConnectionManager
+        └─── InteractiveConnectionManager
+            └─── CapturingConnectionManager
+</pre>
+
+# qmldesigner/designercore/model/viewmanager.cpp
+the only place where the `CapturingConnectionManager` class is instantiated is inside the `ViewManagerData` class defined here, its only usege is for initializing `ViewManagerData.nodeInstanceView` where it gets initialized using the `capturingConnectionManager` when Qt creator is run using the `-capture-puppet-stream` arg, and gets initialized using the `connectionManager` otherwise.
+
+# qmldesigner/designercore/include/nodeinstanceview.h
+the class `NodeInstanceView` is the only calss where instances of the `NodeInstanceServerProxy` class are created. 
+
+# qmldesigner/designercore/instances/nodeinstance.cpp
+the class `ProxyNodeInstanceData` that is defined here is where the rendered images of the qmlpuppet are stored. the variable `ProxyNodeInstanceData.renderPixmap` is where the recieved image is stored. the only way to access this variable is through the `NodeInstance::setRenderPixmap()` function which is only called from inside the `NodeInstanceView::pixmapChanged()` function.
+
+# qmldesigner\designercore\instances\nodeinstanceserverproxy.h
+a call to the `NodeInstanceServerProxy::dispatchCommand()` creates the `command` that is passed to the function `NodeInstanceView::pixmapChanged()` as an argument, specifically the line 
+`nodeInstanceClient()->pixmapChanged(command.value<PixmapChangedCommand>());` is what creates this command.
+this call happens in the function `BaseConnectionManager::dispatchCommand()`, which in-turn gets called from the function `InteractiveConnectionManager::dispatchCommand()`. this function gets called inside the function `BaseConnectionManager::readDataStream()`. the function `BaseConnectionManager::readDataStream()` is connected to each item in the  `ConnectionManager::m_connections` in the `ConnectionManager::setUp()` function in the line
+```
+QObject::connect(connection.socket.get(), &QIODevice::readyRead, this, [&] {
+    readDataStream(connection);
+});
+```
+which is where the socket recieves the data from the qml2puppet executable.
